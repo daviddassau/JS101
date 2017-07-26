@@ -19,5 +19,5 @@ console.log(weather);
 console.log(weather.isRaining);
 console.log(weather['is-sunny']);
 
-console.log("humidity", weather[x]);
+console.log("humidity", weather[x]); // x is finding the humidity property in the weather object, this displaying "humidity too much" in the console
 console.log(weather.x);
